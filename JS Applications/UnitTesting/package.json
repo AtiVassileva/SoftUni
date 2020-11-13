@@ -1,0 +1,21 @@
+{
+  "name": "js-applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha UniTesting/Testing/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "inflight": "^1.0.6",
+    "once": "^1.4.0"
+  }
+}
