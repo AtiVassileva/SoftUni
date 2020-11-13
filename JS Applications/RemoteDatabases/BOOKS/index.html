@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Books</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <button id="loadBooks">LOAD ALL BOOKS</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Isbn</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+    </table>
+
+    <form>
+        <h3>FORM</h3>
+        <label>TITLE</label>
+        <input type="title" name="title" id="title" placeholder="Title...">
+        <label>AUTHOR</label>
+        <input type="title" name="author" id="author" placeholder="Author...">
+        <label>ISBN</label>
+        <input type="title" name= "isbn" id="isbn" placeholder="Isnb...">
+        <button id="submit">Submit</button>
+    </form>
+
+    <form id ="edit-form" style="display: none;">
+        <h3>EDIT FORM</h3>
+        <label>TITLE</label>
+        <input type="title" id="edit-title" placeholder="Title...">
+        <label>AUTHOR</label>
+        <input type="title" id="edit-author" placeholder="Author...">
+        <label>ISBN</label>
+        <input type="title" id="edit-isbn" placeholder="Isnb...">
+        <button id="editBtn">Edit</button>
+    </form>
+    <script src="./app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCTRebYkEZlYnOfgKgvMxwKdkx-csdvLCg",
+            authDomain: "books-b95f4.firebaseapp.com",
+            databaseURL: "https://books-b95f4.firebaseio.com",
+            projectId: "books-b95f4",
+            storageBucket: "books-b95f4.appspot.com",
+            messagingSenderId: "166795578333",
+            appId: "1:166795578333:web:ec8516b493ffdec9294434"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>
+
+<!--Feel free to change/update/modify the HTML Structure-->

@@ -1,0 +1,30 @@
+form{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(199, 221, 221);
+    color: rgb(13, 13, 97);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+button{
+    border-style: solid;
+    font-size: large;
+}
+
+#result{
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    height: 10%;
+    background-color: red;
+    color: white;
+    width: 50%;
+}
+input{
+   
+    border-color: rgb(13, 13, 97);
+}

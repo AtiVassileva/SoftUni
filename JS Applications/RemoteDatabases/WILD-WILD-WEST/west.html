@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Wild West</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="loadCanvas.js"></script>
+    <script src="attachEvents.js"></script>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+        <legend>Players</legend>
+        <div id="players">
+
+        </div>
+        <fieldset>
+            <legend>Add Player</legend>
+            <input type="text" id="addName">
+            <button id="addPlayer">Add Player</button>
+        </fieldset>
+        <div id="buttons">
+            <button style="display: none" id="save">Save</button>
+            <button style="display: none" id="reload">Reload</button>
+        </div>
+        <canvas style="display: none" width="800" height="600" style="border: 5px solid orange" id="canvas">Canvas not
+            supported</canvas>
+        <fieldset>
+    </fieldset>
+    
+
+    
+    <script>
+        $(document).ready(attachEvents);
+    </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDzSNgaJvCF5g2-WD8IyA-cyG8gtMWO4e8",
+            authDomain: "wild-wild-west-cb0a9.firebaseapp.com",
+            databaseURL: "https://wild-wild-west-cb0a9.firebaseio.com",
+            projectId: "wild-wild-west-cb0a9",
+            storageBucket: "wild-wild-west-cb0a9.appspot.com",
+            messagingSenderId: "826486628417",
+            appId: "1:826486628417:web:2795bfc8ad5b602af826c0"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>

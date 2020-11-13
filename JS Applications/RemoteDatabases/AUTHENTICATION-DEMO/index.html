@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="result" style="display: none"></div>
+    <form action="log-in" id="login-form">
+        <h1>Log in</h1>
+        <label for="email">Enter your email:</label>
+        <input type="email">
+        <br>
+        <br>
+        <label for="password">Enter your password:</label>
+        <input type="password">
+        <br>
+        <br>
+        <button>Log in</button>
+        <h5>No account? <a href="#">Sign up now</a></h5>
+    </form>
+    <form action="register" id="register-form" style="display: none">
+        <h1>Sign up</h1>
+        <label for="email">Enter a valid email:</label>
+        <input type="email">
+        <br>
+       <br>
+        <label for="password">Create a password:</label>
+        <input type="password">
+        <br>
+        <br>
+        <button>Sign up</button>
+        <br>
+    </form>
+
+    <form action="logOut" id="logout-form" style="display: none">
+        <ul>Bored? <a href="https://www.youtube.com/" target="blank">Watch a video</a></ul>
+        <ul>Stuck with a code? <a href="https://stackoverflow.com/" target="blank">Find help</a></ul>
+        <ul>Wonder when you got a lecture? <a href="https://softuni.bg/trainings/3012/js-applications-october-2020/internal" target="blank">Check</a></ul>
+        <button>Log out</button>
+    </form>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
