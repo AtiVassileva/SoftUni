@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>_04.CookiesProblem</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SoftUni.Wintellect.PowerCollections" Version="1.1.5733.22550" />
+  </ItemGroup>
+
+</Project>
