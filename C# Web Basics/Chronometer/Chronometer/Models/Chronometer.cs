@@ -1,7 +1,8 @@
-﻿using System.Diagnostics;
 using Chronometer.Contracts;
-using System.Collections.Generic;
 using Chronometer.Common;
+﻿using System.Diagnostics;
+using System.Collections.Generic;
+
 
 namespace Chronometer.Models
 {
@@ -40,7 +41,7 @@ namespace Chronometer.Models
         public string Lap()
         {
             var currentLap = this.GetTime();
-            lapsStatistics.Add(currentLap);
+            this.lapsStatistics.Add(currentLap);
             return currentLap;
         }
 
