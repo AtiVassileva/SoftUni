@@ -1,0 +1,22 @@
+-- 1.
+start
+lap
+lap
+stop
+laps
+start
+lap
+stop
+time
+reset
+start
+stop
+time
+exit
+
+-- 2.
+start
+stop
+time 
+laps (No laps)
+exit
