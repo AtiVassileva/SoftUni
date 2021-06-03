@@ -1,2 +1,2 @@
 # SoftUni
-Homework Assignments 
+Course Assignments 
