@@ -1,0 +1,15 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+.btn {
+    border: 1px solid;
+    border-radius: 2px;
+    color: white
+}
+
+.click {
+    background-color: green;
+}
+
+.email {
+    background-color: orange;
+}
