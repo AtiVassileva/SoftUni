@@ -6,31 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Buttons CSS</title>
 </head>
 
 <body>
-    <div class="button">
         <h2>Normal buttons</h2>
         <div>
-            <a><button>Learn more</button></a>
-            <button>Learn more</button>
-            <button>Learn more</button>
+            <a class="button">Learn more</a>
+            <button class="button">Learn more</button>
+            <button class="button hover">Learn more</button>
         </div>
         <h2>Filled buttons</h2>
-        <div class="fill">
-            <a><button>Learn more</button></a>
-            <button>Learn more</button>
-            <button class="hover">Learn more</button>
+        <div>
+            <a class="button fill">Learn more</a>
+            <button class="button fill">Learn more</button>
+            <button class="button fill hover">Learn more</button>
         </div>
         <h2>Icon buttons</h2>
-        <div class="fill">
-            <a><button><i class="fas fa-arrow-down"></i> Download</button></a>
-            <button><i class="fas fa-arrow-down"></i> Download</button>
-            <button class="hover"><i class="fas fa-arrow-down"></i> Download</button>
+        <div>
+            <a class="button fill"><i class="fas fa-arrow-down"></i> Download</a>
+            <button class="button fill">
+                <i class="fas fa-arrow-down"></i> Download
+            </button>
+            <button class="button fill hover">
+                <i class="fas fa-arrow-down"></i> Download
+            </button>
         </div>
-    </div>
 </body>
 
 </html>
