@@ -1,0 +1,43 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+img {
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+div {
+    height: 50vh;
+    position: relative;
+}
+
+section {
+    display: block;
+    position: absolute;
+    left: 40%;
+}
+
+.first section {
+    top: 27%;
+}
+
+.second section {
+    top: 5%;
+}
+
+.fa-star, .fa-link {
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+    color: white;
+}
+
+.first {
+    background: linear-gradient(to right, rgb(24, 90, 157), rgb(67, 206, 162));
+}
+
+.second {
+    background: linear-gradient(to right, rgb(168, 50, 120), rgb(211, 130, 18));
+}
