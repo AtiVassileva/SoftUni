@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: Helvetica, sans-serif;
     font-size: 16px;
@@ -5,57 +9,89 @@ html {
 }
 
 body {
-    background-color: rgb(238, 238, 238);
+    background: rgb(238, 238, 238);
+    margin: 40px 60px;
 }
 
-main {
-    display: inline-block;
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
 }
 
-main article img {
-    margin: 10px;
-    padding: 5px;
-    border: 5px solid black;
-    background-color: rgb(255, 255, 255);
+img {
+    padding: 7px;
+    border: 4px solid black;
+    background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25);
 }
 
-main article blockquote {
+blockquote, h1, h2 {
     font-family: Georgia, serif;
+}
+
+h1, h2 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+/* Align using display-block 
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 70%;
+    padding-right: 60px;
+}
+
+aside {
+    width: 28%;
+}
+*/
+
+/* Align using float */
+
+main {
+    float: left;
+    width: 70%;
+    padding-right: 60px;
+}
+
+aside {
+    float: right;
+    width: 28%;
+}
+
+blockquote {
     float: right;
     font-style: italic;
-    border-left: 5px solid rgb(221, 221, 221);
-    padding: 3px;
+    border-left: 3px solid rgb(221, 221, 221);
+    padding-left: 10px;
+    width: 40%;
 }
 
-main article blockquote p {
-    display: inline;
-    padding: 10px;
+blockquote p {
+    text-align: right;
 }
 
-main article aside {
-    float: right;
-}
-
-main article h1, h2 {
-    font-family: Georgia, serif;
-    font-size: 1em;
-}
-
-main article aside ul li a {
+a {
+    text-decoration: none;
     color: rgb(74, 204, 74);
 }
 
 .site-title {
+    font-size: 2em;
     text-transform: uppercase;
-    display: inline-block;
     font-weight: bold;
 }
 
 .escalatop-image {
     float: right;
+    margin: 0 0 7px 20px;
 }
 
 .dog-image {
     float: left;
+    margin-right: 20px;
 }
