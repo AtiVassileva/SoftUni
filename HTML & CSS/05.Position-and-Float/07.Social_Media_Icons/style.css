@@ -1,0 +1,46 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgb(236, 217, 217);
+    padding: 20px;
+    margin: 7px;
+}
+
+/* Needed only for Judge */
+li a {
+    border-radius: 50%;
+}
+li i {
+    font-size: 30px;
+    color: black;
+}
+
+.facebook i:hover {
+    color:darkblue;
+}
+
+.twitter i:hover {
+    color:rgb(77, 126, 182);
+}
+
+.google i:hover {
+    color: red;
+}
+
+.linkedin i:hover {
+    color:darkblue;
+}
+
+.instagram i:hover { 
+    color:rgb(77, 126, 182);
+}
