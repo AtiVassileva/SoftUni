@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    margin: 40px 60px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.header-nav  {
+    float: right;
+}
+
+.header-nav ul li {
+    display: inline-block;
+}
+
+.header-nav ul li a {
+    color: rgb(27, 146, 27);
+}
+
+.site-title {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+img {
+    padding: 7px;
+    border: 4px solid black;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}
+
+h1, h2 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+/* Align using display-block 
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 70%;
+    padding-right: 60px;
+}
+
+aside {
+    width: 28%;
+}
+*/
+
+/* Align using float */
+
+main {
+    float: left;
+    width: 70%;
+    padding-right: 60px;
+}
+
+aside {
+    float: right;
+    width: 28%;
+}
+
+blockquote {
+    float: right;
+    font-style: italic;
+    border-left: 3px solid rgb(221, 221, 221);
+    padding-left: 10px;
+    width: 40%;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(74, 204, 74);
+}
+
+.escalatop-image {
+    float: right;
+    margin: 0 0 7px 20px;
+}
+
+.dog-image {
+    float: left;
+    margin-right: 20px;
+}
