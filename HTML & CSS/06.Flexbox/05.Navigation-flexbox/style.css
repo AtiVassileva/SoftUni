@@ -1,0 +1,35 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    padding: 50px 50px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    justify-content: space-between;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding-right: 10px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
