@@ -1,0 +1,45 @@
+body {
+    margin : 0;
+    background: #EEEEEE;
+    font-family: Helvetica, sans-serif;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header, main, aside, footer {
+    box-shadow: 1px 1px 10px -2px black;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+header {
+    padding: 10px 10px 70px 10px;
+}
+
+main, aside {
+    margin: 20px 0;
+    padding: 10px 10px 180px 10px;
+}
+
+main {
+    margin-right: 20px;
+    flex-grow: 3;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+footer {
+    padding: 10px 10px 50px 10px;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
