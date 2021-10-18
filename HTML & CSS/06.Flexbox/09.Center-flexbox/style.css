@@ -4,7 +4,7 @@
 
 body {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     background: rgb(238, 238, 238);
     justify-content: center;
 }
