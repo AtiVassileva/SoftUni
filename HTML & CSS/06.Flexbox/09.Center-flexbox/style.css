@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: rgb(238, 238, 238);
+    justify-content: center;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px -1px black;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+}
