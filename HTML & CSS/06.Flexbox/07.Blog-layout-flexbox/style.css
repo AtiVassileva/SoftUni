@@ -16,10 +16,10 @@ body {
 .page {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 header {
+    flex-basis: 100%;
     border-bottom: 2px solid black;
     margin-bottom: 50px;
 }
@@ -36,16 +36,17 @@ blockquote, h1, h2 {
 }
 
 h1, h2 {
-    font-size: 1em;
+    font-size: 25px;
     line-height: 1.2;
 }
 
 main {
-    flex-grow: 3;
+    flex-basis: 70%;
+    margin-right: 30px;
 }
 
 aside {
-    flex-grow: 1;
+    flex-basis: 26%;
 }
 
 blockquote {
