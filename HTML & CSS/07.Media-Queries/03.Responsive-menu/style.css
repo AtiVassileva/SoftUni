@@ -1,0 +1,85 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+header {
+    margin: 50px 80px;
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px 12px;
+    background: white;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    background: black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display: none;
+}
+
+@media all and (max-width: 1000px) {
+    header, nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul {
+        margin: 0;
+        border-top: 2px solid black;        
+    }
+
+    .btn {
+        display: block;
+        color: black;
+        background:rgb(238, 238, 238);
+        border: none;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-left: 12px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        text-align: center;
+    }
+}
