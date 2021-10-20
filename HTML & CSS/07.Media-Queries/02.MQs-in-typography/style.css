@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    margin: 40px 60px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    flex-basis: 100%;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+img {
+    padding: 7px;
+    border: 4px solid black;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}
+
+h1, h2 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+blockquote {
+    float: right;
+    font-style: italic;
+    border-left: 3px solid rgb(221, 221, 221);
+    padding-left: 10px;
+    width: 40%;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+.site-title {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.escalatop-image {
+    float: right;
+    margin: 0 0 7px 20px;
+}
+
+.dog-image {
+    float: left;
+    margin-right: 20px;
+}
+
+@media all and (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+@media all and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
