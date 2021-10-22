@@ -1,0 +1,24 @@
+@media all and (max-width: 1000px) {
+    header, header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    header nav ul {
+        margin: 0;
+        border-top: 2px solid black;        
+    }
+
+    h1 {
+        margin-left: 12px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        text-align: center;
+    }
+}
