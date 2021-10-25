@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}

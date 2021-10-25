@@ -1,0 +1,27 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+* {
+    box-shadow: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 300px;
+}
+
+form p, button {
+    flex-basis: 100%;
+}
+
+button {
+    background: black;
+    color: white;
+    margin-top: 10px;
+
+}
