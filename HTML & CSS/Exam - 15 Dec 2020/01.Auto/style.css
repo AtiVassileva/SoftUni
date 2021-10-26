@@ -8,9 +8,23 @@ h3, h4 {
 
 p {
     font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
 }
 
 article {
+    margin-right: 50px;
+}
+
+img {
+    display: inline-block;
+}
+
+.card {
     display: flex;
     flex-wrap: wrap;
 }
