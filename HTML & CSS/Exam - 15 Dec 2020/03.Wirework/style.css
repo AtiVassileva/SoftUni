@@ -1,0 +1,176 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.site-title, .site-link a {
+    text-transform: uppercase;
+}
+
+.site-title::after {
+    content: 'By templated';
+    text-transform: uppercase;
+    border-left: 2px solid grey;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.site-link {
+    list-style: none;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.link {
+    text-decoration: none;
+    background: rgb(241, 230, 230);
+    color: black;
+    padding: 15px;
+}
+
+#home-page-link {
+    background: #F43F0E;
+}
+
+.intro-section-img {
+    width: 100%;
+}
+
+.intro-section-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.intro-section-content {
+    background: #F43F0E;
+    text-align: center;
+    margin-top: -10px;
+    padding: 30px 120px 50px 120px;
+}
+
+.intro-section-text, .intro-section-link {
+    color: white;
+}
+
+.intro-section-text {
+    line-height: 1.5;
+}
+
+.icons-section {
+    display: flex;
+    background: rgb(51, 50, 50);
+    padding: 80px 120px;
+}
+
+.icon-element {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.icon-element-title, .icon {
+    color: white;
+}
+
+.icon-element-title {
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-weight: normal;
+}
+
+.icon-element-title::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #686759;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+}
+
+.icon-element-text {
+    color: grey;
+}
+
+.icon {
+    font-size: 50px;
+    background: #F43F0E;
+    padding: 20px;
+}
+
+.action-section {
+    text-align: center;
+    padding: 30px 120px 70px 120px;
+}
+
+.action-section-title {
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 0;
+    color:rgb(51, 50, 50);
+}
+
+.action-section-text {
+    color: #686759;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.action-section-button {
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(37, 131, 95);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    margin-top: 12px;
+}
+
+.action-section-button:hover{
+    cursor: pointer;
+}
+
+.description-section {
+    display: flex;
+    background: rgb(51, 50, 50);
+    padding: 30px 120px 70px 120px;
+    text-align: center;
+}
+
+.description-content-title {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.description-content-text {
+    color: #686759;
+}
+
+.site-footer {
+    background: rgb(37, 131, 95);
+    margin-top: -20px;
+    text-align: center;
+    padding: 30px 120px 40px 120px;
+}
+
+.site-footer-content {
+    color: whitesmoke;
+}
