@@ -1,30 +1,49 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*, *::after, *::before {
     box-sizing: border-box;
 }
 
-h3, h4 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    color: grey;
-}
-
 body {
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+
+h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: black;
+}
+
+main {
     display: flex;
-    justify-content: space-between;
 }
 
-article {
-    margin-right: 50px;
+.content, .image {
+    margin: 100px auto;
+    max-width: 1300px;
+    margin-right: 60px;
 }
 
-img {
-    display: inline-block;
-}
-
-.card {
+.benefit {
     display: flex;
-    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.benefits-list {
+    margin: 0;
+}
+
+.benefit-img {
+    max-width: 85px;
+}
+
+.benefit-img img {
+    width: 100%;
+}
+
+.benefit-description-content {
+    margin: 0;
 }
