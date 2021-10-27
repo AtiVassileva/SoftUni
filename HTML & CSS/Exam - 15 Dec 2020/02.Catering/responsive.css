@@ -1,1 +1,11 @@
-/* TODO: Add the responsive styles here */
+@media all and (max-width: 600px) {
+    .w3-right.w3-hide-small,
+    #about .w3-image {
+        display: none;
+    }
+    
+    .w3-col.m6, 
+    .w3-col.l6 {
+        width: 100%;
+    }
+}
