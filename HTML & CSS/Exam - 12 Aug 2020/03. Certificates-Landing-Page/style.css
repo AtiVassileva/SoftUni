@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 20px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: space-between;
     padding: 7px 15px;
-    margin: 0 40px;
+    margin: 0 auto;
     box-shadow: 0px -1px 4px 0px black;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
+.current {
+    border-top: 3px solid #42ABF8;
+}
+
 .page-link:last-child {
     background: #42ABF8;
     border-radius: 35px;
@@ -57,4 +61,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-link:last-child a {
     color: white;
+}
+
+.certificates-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255, .7)), url('./images/hero-certificates.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web-certificates-info {
+    background: #29394B;
+    padding: 20px;
+    border-radius: 8px;
+    flex-basis: 60%;
+    color: #F3F4F5;
+}
+
+.web-certificates-img {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 30%;
+}
+
+.certificates-subtitle {
+    margin-top: 20px;
+    color: #7E8690;
+    font-style: italic;
 }
