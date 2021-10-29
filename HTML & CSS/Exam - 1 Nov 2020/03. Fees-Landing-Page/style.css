@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
-
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -137,19 +136,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .benefits-section {
     margin: 0 120px;
-    padding-bottom: 200px; 
     color: #6A6A7F;
 }
 
 .benefits-table {
-margin-top: 30px;
+    margin-top: 30px;
 }
 
 .benefit {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-
 }
 
 .benefit:nth-child(odd) {
@@ -166,7 +163,7 @@ margin-top: 30px;
 }
 
 .benefit-icon {
-flex-grow: 1;
+    flex-grow: 1;
 }
 
 .benefit:nth-child(1) {
@@ -177,4 +174,13 @@ flex-grow: 1;
 .benefit:last-child {
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
+}
+
+.postbank-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 70px;
+    padding: 30px;
+    color: #6A6A7F;
 }
