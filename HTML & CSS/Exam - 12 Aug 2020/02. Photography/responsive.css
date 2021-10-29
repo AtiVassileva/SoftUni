@@ -1,1 +1,28 @@
-/* TODO: Add media queries */
+@media all and (max-width: 600px) {
+    header {
+        padding: 3em 0 2em 0;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    ul.icons {
+        display: flex;
+        justify-content: center;
+    }
+    .thumbnails {
+        flex-direction: column;
+    }
+    .thumbnails>div {
+        width: 100%;
+        margin-top: 2em;
+    }
+    
+    .thumbnails a img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+    footer p {
+        margin: 0 0 1em 0;
+        font-size: 25px;
+    }
+}
