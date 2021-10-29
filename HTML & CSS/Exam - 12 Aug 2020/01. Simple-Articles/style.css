@@ -1,5 +1,7 @@
 @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
