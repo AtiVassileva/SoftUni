@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 300px;
     padding: 30px;
     position: relative;
+    margin-bottom: 300px;
 }
 
 .fees-section::before {
@@ -81,9 +82,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 30%;
     max-width: 400px;
     position: relative;
+    top: 20px;
     display: flex;
     flex-direction: column;
     padding: 0 12px;
+    color: #6A6A7F;
 }
 
 .fees-article-title {
@@ -130,4 +133,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .professional {
     background: linear-gradient(90deg, rgba(77, 58, 168, 1) 0%, rgba(108, 91, 196, 1) 35%, rgba(135, 120, 221, 1) 100%);
+}
+
+.benefits-section {
+    margin: 0 120px;
+    padding-bottom: 200px; 
+    color: #6A6A7F;
+}
+
+.benefits-table {
+margin-top: 30px;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.benefit:nth-child(odd) {
+    background: #E6E6E6;
+}
+
+.benefit:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.benefit-text {
+    flex-grow: 3;
+    flex-basis: 60%;
+}
+
+.benefit-icon {
+flex-grow: 1;
+}
+
+.benefit:nth-child(1) {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.benefit:last-child {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
