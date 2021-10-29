@@ -2,11 +2,7 @@ APPLY
 CURRICULUM
 SoftUni Logo
 Ⓒ 2020 - Software University LTD
-Curriculum
-About Us
-Contact Us
-Webinars
-SoftUni Romania
+
 Facebook
 Instagram
 Twitter

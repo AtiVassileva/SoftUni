@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -51,14 +52,14 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 3px solid #42ABF8;
 }
 
-.page-link:last-child {
+header .page-link:last-child {
     background: #42ABF8;
     border-radius: 35px;
     box-shadow: 1px 1px 6px -1px black;
     padding: 5px;
 }
 
-.page-link:last-child a {
+header .page-link:last-child a {
     color: white;
 }
 
@@ -67,11 +68,12 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px;
-    margin: 0 auto;
     background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .7)), url('./images/hero-certificates.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 30px;
+    border-radius: 8px;
 }
 
 .web-certificates-info {
@@ -126,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #FAFAFA;
     border-radius: 8px;
     text-shadow: 0.8px 0.8px black;
+    margin-bottom: 80px;
 }
 
 .program-title {
@@ -156,6 +159,30 @@ h1, h2, h3, h4, h5, h6 {
 .ciricullum-btn {
     background: transparent;
     border: 2px solid white;
-    color: white; 
+    color: white;
     text-shadow: 0.8px 0.8px black;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid grey;
+    padding: 20px;
+}
+
+.page-logo {
+    display: flex;
+}
+
+.copyright {
+    flex-basis: 100%;
+    color: #7E8690;
+    margin-left: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+i {
+    color: black;
 }
