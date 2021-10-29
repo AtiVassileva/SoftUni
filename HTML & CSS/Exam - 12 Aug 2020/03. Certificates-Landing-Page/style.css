@@ -94,3 +94,25 @@ h1, h2, h3, h4, h5, h6 {
     color: #7E8690;
     font-style: italic;
 }
+
+.diploma-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 60px;
+    color: #40454b;
+    padding: 20px;
+}
+
+.diploma-section-title {
+    margin: 0 auto;
+}
+
+.diploma-section-info {
+    background: #F4F5F7;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.diploma-section-subtitle {
+}
