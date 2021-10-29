@@ -184,3 +184,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px;
     color: #6A6A7F;
 }
+
+.page-footer {
+    display: flex;
+    background: #54546D;
+    color: #7c7597;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+.footer-text {
+    font-size: 16px;
+    margin: 0 auto;
+}
