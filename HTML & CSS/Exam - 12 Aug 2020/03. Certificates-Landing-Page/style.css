@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
-
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -69,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     padding: 50px;
     margin: 0 auto;
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255,255,255, .7)), url('./images/hero-certificates.jpg');
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .7)), url('./images/hero-certificates.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,8 +110,52 @@ h1, h2, h3, h4, h5, h6 {
 .diploma-section-info {
     background: #F4F5F7;
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 10px;
+    margin: 20px 0;
 }
 
-.diploma-section-subtitle {
+.program-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, -28.9), rgba(255, 255, 255, -9.7)), url(./images/sign-up-prompt-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FAFAFA;
+    border-radius: 8px;
+    text-shadow: 0.8px 0.8px black;
+}
+
+.program-title {
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.buttons {
+    flex-basis: 100%;
+    margin-top: 20px;
+}
+
+.apply-btn, .ciricullum-btn {
+    font-size: 24px;
+    margin: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.apply-btn {
+    background: white;
+    color: #42ABF8;
+}
+
+.ciricullum-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white; 
+    text-shadow: 0.8px 0.8px black;
 }
