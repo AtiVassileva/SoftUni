@@ -1,0 +1,58 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 120px;
+    font-family: 'Helvetica', sans-serif;
+    color: #979FA6;
+}
+
+h1, h5 {
+    color: #818891;
+}
+
+.page {
+    background: #F6F8F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.info-article {
+    margin-bottom: 15px;
+}
+
+.description-subtitle {
+    font-size: 15px;
+}
+
+.description-title {
+    margin-top: 5px;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.description-text {
+    font-size: 25px;
+    line-height: 2;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    background: #786EFF;
+    border: none;
+    color: #E8E7FF;
+}
+
+.learn-more-btn {
+    background: #F6F8F9;
+    border: 2px solid #919193;
+    color: #777F88;
+}

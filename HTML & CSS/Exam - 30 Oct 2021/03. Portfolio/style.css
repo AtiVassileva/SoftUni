@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #6A6A6A;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFEFEF;
+    padding: 40px 60px;
+    max-height: 600px;
+    margin-bottom: 30px;
+}
+
+.intro-title {
+    font-size: 50px;
+    font-weight: normal;
+    flex-basis: 100%;
+    color: #7E8690;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.intro-info {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.description {
+    max-width: 450px;
+    position: relative;
+}
+
+.description::after {
+    content: '';
+    width: 2px;
+    height: 15%;
+    background: #AFAFAF;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    top: 93%;
+    z-index: 1;
+}
+
+.menu-span {
+    align-self: flex-start;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+
+.camera-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFEFEF;
+    padding: 40px 60px;
+    margin-bottom: 60px;
+}
+
+.camera-title {
+    font-size: 50px;
+    font-weight: normal;
+    flex-basis: 100%;
+    color: #7E8690;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    padding-left: 80px;
+}
+
+
+.camera-title::after {
+    content: '';
+    width: 10%;
+    border-bottom: solid 2px #AFAFAF;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.socials-list {
+    display: flex;
+}
+
+.social-media {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.social-link {
+    color: #909090;
+    font-size: 25px;
+}
+
+.camera-info {
+    margin-left: 30px;
+}
+
+.photographer-section {
+    margin-bottom: 60px;
+    max-width: 1500px;
+}
+
+.photographer-section div img {
+    width: 100%;
+}
+
+.bridge-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EFEFEF;
+    padding: 80px 60px;
+    max-height: 600px;
+    margin-bottom: 30px;
+}
+
+.bridge-info {
+    position: relative;
+}
+
+.bridge-info::after {
+    content: '';
+    width: 2px;
+    height: 50%;
+    background: #AFAFAF;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    top: 93%;
+    z-index: 1;
+}
+
+.bridge-image {
+    flex-basis: 50%;
+}
+
+.bridge-image img {
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+
+.bridge-title {
+    font-size: 50px;
+    font-weight: normal;
+    flex-basis: 100%;
+    color: #7E8690;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bridge-description {
+    flex-basis: 20%;
+}
+
+.images-section {
+    display: flex;
+    align-items: baseline;
+    background: #EFEFEF;
+    padding: 80px 60px;
+    margin-bottom: 30px;
+    
+}
+
+.img-container {
+    
+    flex-shrink: 4;
+}
+
+.img-container img {
+    
+    margin-bottom: -5px;
+}
+
+.thumb-img:nth-child(odd) {
+    
+    max-width: 25%;
+    max-height: 40%;
+}
+
+.thumb-img:nth-child(1) {
+    position: relative;
+    left: 200px;
+} 
+
+.thumb-img:nth-child(2) {
+    position: relative;
+    top: 40px;
+    right: 90px;
+    left: 90px;
+    max-width: 40%;
+    max-height: 50%;   
+    flex-shrink: 1;
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #EFEFEF;
+    padding: 80px 60px;
+    max-height: 600px;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: normal;
+    
+} 
+
+.contact-info {
+    flex-basis: 90%;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact-form input, textarea {
+    border: 2px solid #4C4C4C;
+    margin: 7px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.submit {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.page-footer {
+    background: #EFEFEF;
+    text-align: center;
+    font-style: none;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    font-style: normal;
+}
